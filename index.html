@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="./resources/css/style-capstone.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width">
 </head>
 <body>
 
@@ -15,7 +16,7 @@
 			<img src="./resources/images/ic-logo.svg" alt="Lion Logo">
 			<span><strong>Colmar</strong>Academy</span>
 		</div>
-		<nav>
+		<nav class="desktop">
 			<a href="#">On campus</a>
 			<div></div>
 			<a href="#">Online</a>
@@ -23,6 +24,13 @@
 			<a href="#">For companies</a>
 			<div></div>
 			<a href="#">Sign in</a>
+		</nav>
+
+		<nav class="head-mob">
+			<img src="./resources/images/ic-logo.svg">
+			<img src="./resources/images/ic-on-campus.svg">
+			<img src="./resources/images/ic-online.svg">
+			<img src="./resources/images/ic-login.svg">
 		</nav>
 	</header>
 
@@ -36,7 +44,7 @@
     	</div>    
         <div class="learn-text first-column">
         	<h1>Learn something new everyday.</h1>
-        	<h3>Lorem ipsum dolor sit amit,<br>consectetur adipiscing elit.</h3>
+        	<h3>Lorem ipsum dolor sit amit, consectetur adipiscing elit.</h3>
         	<a href="#"><div class="start-btn">Start here</div></a>
         </div>
 	</div>
@@ -45,9 +53,9 @@
     <!-- Keep Practicing -->
     
     <div class="keep-practicing">
-    	<div class="pic-section">
+    	<div class="not-on-mob pic-section">
     	        <img src="./resources/images/information-main.jpg" alt="A man reading a book outside." class="large-pic">
-    	    <div>
+    	    <div class="not-on-mob">
     		    <h1>It doesn't hurt to keep practicing</h1>
     		    <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, eficitur dolor consequat, tristique ligula."</p>
     		    <span>Emanuel, Sr strategist at Hiring.com</span>
@@ -57,7 +65,8 @@
     	<div class="first-column">
 
     		<div class="info">
-    			<img src="./resources/images/information-orientation.jpg" alt="Arial view of people walking on a path.">
+    			<img src="./resources/images/information-orientation.jpg" alt="Arial view of people walking on a path." class="desktop">
+    			<img src="resources/images/information-orientation-mobile.jpg" class="mob">
     			<div class="info-text">
     			    <h3>Orientation Date</h3>
     			    <p>Tue 10/11 & wed 10/12: 8am-3pm</p>
@@ -66,7 +75,8 @@
     		</div>
 
     		<div class="info">
-    			<img src="./resources/images/information-campus.jpg" alt="Room with wooder walls and low hanging lights.">
+    			<img src="./resources/images/information-campus.jpg" alt="Room with wooder walls and low hanging lights." class="desktop">
+    			<img src="resources/images/information-campus-mobile.jpg" class="mob">
     			<div class="info-text">
     			    <h3>Our Campus</h3>
     			    <p>Find out which campus is close by you</p>
@@ -75,7 +85,8 @@
     		</div>
 
     		<div class="info">
-    			<img src="./resources/images/information-guest-lecture.jpg" alt="Old gentleman wearing glasses.">
+    			<img src="./resources/images/information-guest-lecture.jpg" alt="Old gentleman wearing glasses." class="desktop">
+    			<img src="resources/images/information-guest-lecture-mobile.jpg" class="mob">
     			<div class="info-text">
     			    <h3>Our guest lecture</h3>
     			    <p>Join a keynot with Oliver Sack about music in medical treatment</p>
@@ -146,6 +157,21 @@
     			</div>
     		</div>
     	</div>
+
+    	<div class="subjects-mob">
+    		<div>Software engineering</div>
+
+    		<div>Computer art</div>
+
+    		<div>Design</div>
+
+    		<div>Data</div>
+
+    		<div>Buisness</div>
+
+    		<div>Marketing</div>
+
+    	</div>
     </div>
 
     <!-- Thesis Exhibit -->
@@ -154,13 +180,13 @@
         <div class="keep-practicing">
     	    <div class="thesis-vid-section pic-section">
     	            <video src="./resources/videos/thesis.mp4" alt="A man reading a book outside." controls class="large-pic"></video>
-    	        <div>
+    	        <div class="not-on-mob">
     		    <h3>Reimagine Urban</h3>
     		    <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, eficitur dolor consequat, tristique ligula."</p>
     		    </div>
     	    </div>
 
-    	    <div class="first-column">
+    	    <div class="not-on-mob first-column">
 
     		    <div class="info column-two">
     			    <img src="./resources/images/thesis-fisma.jpg" alt="Arial view of people walking on a path.">
