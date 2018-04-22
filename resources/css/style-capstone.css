@@ -286,8 +286,8 @@ img.mob {
 	color: #8e8f8f;
 	background-color: #d9d9d9;
 	padding: 1rem 0 1.5rem 1rem;
-	margin-bottom: 0.5rem;
-	width: 90%;
+	margin: 0 auto 0.5rem auto;
+	width: 96%;
 	font-size: 1.2rem;
 }
 
@@ -315,6 +315,10 @@ img.mob {
 
 .thesis p {
 	margin-bottom: 2rem;
+}
+
+.first-column .now-then {
+	border: none;
 }
 
 
