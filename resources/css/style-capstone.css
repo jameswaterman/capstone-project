@@ -91,6 +91,10 @@ nav div {
   .head-mob {
   	display: flex;
   }
+
+  nav {
+  	margin: 0;
+  }
 }
 
 
