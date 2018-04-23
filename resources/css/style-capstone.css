@@ -57,6 +57,7 @@ nav a {
 	color: #3d3d3d;
 	text-decoration: none;
 	transition: color 200ms;
+	margin-right: 1rem;
 }
 
 nav a:hover {
@@ -99,7 +100,7 @@ nav div {
 
 .learn-something-new {
     display: flex;
-    background-color: #d9d9d9;
+    background-color: #81e1e1;
     align-items: center;
 }
 
@@ -111,7 +112,11 @@ nav div {
 .large-pic {
 	width: 100%;
 	height: auto;
+	box-shadow: 0.3rem 0.3rem 0.8rem #555;
 }
+
+
+
 
 h1 {
 	font-size: 2.6rem;
@@ -125,21 +130,27 @@ h3 {
 	line-height: 1.5;
 }
 
+.start-btn-container {
+	margin: 2.3rem 0;
+}
+
 .start-btn {
+	position: relative;
 	padding: 0.5rem;
-	background-color: #484848;
+	background-color: #8F75F8;
 	color: white;
 	display: flex;
 	justify-content: center;
 	width: 70%;
 	font-size: 1.3rem;
-	margin: 2.3rem 0;
-	transition: box-shadow 300ms, color 100ms;
+	/*margin: 2.3rem 0;*/
+	transition: all 300ms, color 100ms;
 }
 
 .start-btn:hover {
-	box-shadow: 0.3rem 0.3rem 1rem #777;
+	box-shadow: 0.2rem 0.2rem 0.9rem #555;
 	border: none;
+	transform: translateY(-2px);
 }
 
 .start-btn:active {
@@ -161,6 +172,10 @@ h3 {
 	width: 60%;
 	display: inline-block;
 	padding: 2rem 1.5rem;
+}
+
+.banner-1 {
+	border: none;
 }
 
 .pic-section div h1 {
@@ -201,7 +216,7 @@ h3 {
 }
 
 .first-column .info:last-child {
-	background-color: #d9d9d9;
+	background-color: #8F75F8;
 }
 
 .first-column div img {
@@ -234,7 +249,7 @@ img.mob {
 /* Start learning */
 
 .start-learning {
-	background-color: #d9d9d9;
+	background-color: #81e1e1;
 	padding: 2rem 2.5rem;
 }
 
@@ -283,20 +298,23 @@ img.mob {
 }
 
 .subjects-mob div {
-	color: #8e8f8f;
-	background-color: #d9d9d9;
+	color: white;
+	background-color: #8F75F8;
 	padding: 1rem 0 1.5rem 1rem;
 	margin: 0 auto 0.5rem auto;
 	width: 96%;
 	font-size: 1.2rem;
+
 }
 
 .first-column .column-two:last-child {
 	background-color: white;
+	border-left: 1px solid #C0AC76;
+	border-bottom: 1px solid #C0AC76;
 }
 
 .first-column .column-two:first-child {
-	background-color: #d9d9d9;
+	background-color: #C0AC76;
 	margin-top: 2rem;
 }
 
@@ -382,7 +400,7 @@ footer div a:hover {
 	.start-btn {
 		width: 80%;
 		margin: 1.5rem auto 2rem auto;
-		background-color: #888;
+		background-color: #8F75F8;
 	}
 
 	.start-btn:hover {
@@ -428,7 +446,7 @@ footer div a:hover {
     }
 
     .start-learning {
-    	background-color: white;
+    	background-color: #81e1e1;
     	border-bottom: 1px solid #d9d9d9;
     	border-top: 1px solid #d9d9d9;
     }
