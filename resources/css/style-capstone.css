@@ -7,7 +7,7 @@ html {
 
 * {
 	text-decoration: none;
-	color: #484848;
+	color: #4a4a4a;
 }
 
 
@@ -104,7 +104,7 @@ nav div {
 
 .learn-something-new {
     display: flex;
-    background-color: #81e1e1;
+    background-color: #52AE89;
     align-items: center;
 }
 
@@ -116,7 +116,7 @@ nav div {
 .large-pic {
 	width: 100%;
 	height: auto;
-	box-shadow: 0.3rem 0.3rem 0.8rem #555;
+	box-shadow: 0.3rem 0.3rem 1rem #555;
 }
 
 
@@ -134,6 +134,7 @@ h3 {
 	line-height: 1.5;
 }
 
+
 .start-btn-container {
 	margin: 2.3rem 0;
 }
@@ -141,7 +142,7 @@ h3 {
 .start-btn {
 	position: relative;
 	padding: 0.5rem;
-	background-color: #8F75F8;
+	background-color: #A33A39;
 	color: white;
 	display: flex;
 	justify-content: center;
@@ -149,6 +150,7 @@ h3 {
 	font-size: 1.3rem;
 	/*margin: 2.3rem 0;*/
 	transition: all 300ms, color 100ms;
+	box-shadow: 0.05rem 0.05rem 0.5rem #555;
 }
 
 .start-btn:hover {
@@ -253,7 +255,7 @@ img.mob {
 /* Start learning */
 
 .start-learning {
-	background-color: #81e1e1;
+	background-color: #52AE89;
 	padding: 2rem 2.5rem;
 }
 
@@ -303,13 +305,18 @@ img.mob {
 
 .subjects-mob div {
 	color: white;
-	background-color: #8F75F8;
+	background-color: #A33A39;
 	padding: 1rem 0 1.5rem 1rem;
 	margin: 0 auto 0.5rem auto;
 	width: 96%;
 	font-size: 1.2rem;
-
+    transition: all 400ms ease 90ms;
 }
+
+.subjects-mob div:hover {
+	background-color: #CF4948;
+}
+
 
 .first-column .column-two:last-child {
 	background-color: white;
@@ -404,7 +411,7 @@ footer div a:hover {
 	.start-btn {
 		width: 80%;
 		margin: 1.5rem auto 2rem auto;
-		background-color: #8F75F8;
+		background-color: #A33A39;
 	}
 
 	.start-btn:hover {
@@ -450,7 +457,6 @@ footer div a:hover {
     }
 
     .start-learning {
-    	background-color: #81e1e1;
     	border-bottom: 1px solid #d9d9d9;
     	border-top: 1px solid #d9d9d9;
     }
