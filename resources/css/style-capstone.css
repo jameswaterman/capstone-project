@@ -121,6 +121,10 @@ nav div {
   	display: flex;
   }
 
+  .info-text {
+  	padding: 0.3rem; 
+  }
+
   nav {
   	margin: 0;
   }
