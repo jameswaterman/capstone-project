@@ -1,5 +1,13 @@
 /* General */
 
+:root {
+	--main-color: #75D14D;
+    --second-color: /*#85177D*/#9458D1;
+    --second-opacity: rgba(148, 88, 209, 0.3);
+    --third-color: #D14643;
+
+}
+
 html {
 	font-size: 16px;
 	font-family: 'Lato', sans-serif;
@@ -139,7 +147,7 @@ nav div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: #52AE89;
+    background-color: var(--main-color);
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -167,6 +175,7 @@ h1 {
 	line-height: 1.3;
 	margin: 0 0 32px 0;
 	margin: 0 0 2rem 0;
+	text-shadow: 1px 1px 5px rgba(35, 35, 35, 0.2);
 }
 
 h3 {
@@ -177,15 +186,14 @@ h3 {
 
 
 .start-btn-container {
-	margin: 36.8px 0;
-	margin: 2.3rem 0;
+	margin: 36.8px auto;
 }
 
 .start-btn {
 	position: relative;
 	padding: 8px;
 	padding: 0.5rem;
-	background-color: #A33A39;
+	background-color: var(--second-color);
 	color: white;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -285,7 +293,15 @@ h3 {
 }
 
 .first-column .info:last-child {
-	background-color: #AE6152;
+	background-color: var(--second-opacity);
+}
+
+.first-column .info:last-child .info-text a {
+	color: #D14643;
+}
+
+.first-column .info:last-child .info-text a:hover {
+	color: #576E8A;
 }
 
 .first-column div img {
@@ -321,7 +337,7 @@ img.mob {
 /* Start learning */
 
 .start-learning {
-	background-color: #52AE89;
+	background-color: var(--main-color);
 	padding: 32px 40px;
 	padding: 2rem 2.5rem;
 }
@@ -368,7 +384,7 @@ img.mob {
     font-weight: 4800px;
     font-weight: 300rem;
     text-transform: uppercase;
-	color: #8e8f8f;
+	color: #D14643;
 }
 
 .course-txt p {
@@ -386,7 +402,7 @@ img.mob {
 
 .subjects-mob div {
 	color: white;
-	background-color: #A33A39;
+	background-color: #D14643;
 	padding: 16px 0 24px 16px;
 	padding: 1rem 0 1.5rem 1rem;
 	margin: 0 auto 8px auto;
@@ -399,18 +415,18 @@ img.mob {
 }
 
 .subjects-mob div:hover {
-	background-color: #CF4948;
+	background-color: #A33A39;
 }
 
 
 .first-column .column-two:last-child {
 	background-color: white;
-	border-left: 1px solid #C0AC76;
-	border-bottom: 1px solid #C0AC76;
+	border-left: 2px solid var(--second-opacity);
+	border-bottom: 2px solid var(--second-opacity);
 }
 
 .first-column .column-two:first-child {
-	background-color: #C0AC76;
+	background-color: var(--second-opacity);
 	margin-top: 32px;
 	margin-top: 2rem;
 }
@@ -480,24 +496,29 @@ footer {
 	        justify-content: space-between;
 	border-top: 1px solid #d9d9d9;
 	font-weight: 300;
-	color: #8e8f8f;
+	color: white;
 	height: 80px;
 	height: 5rem;
+	background-color: #613E85;
 }
 
 footer span,
 footer div {
 	margin: 16px 24px;
 	margin: 1rem 1.5rem;
+	color: white;
 }
 
 footer div a {
 	margin: 0 0 0 8px;
 	margin: 0 0 0 0.5rem;
+	transition: color 250ms;
+	color: white;
 }
 
 footer div a:hover {
 	color: #888;
+	text-decoration: underline;
 }
 
 
@@ -547,7 +568,6 @@ footer div a:hover {
 	.start-btn {
 		width: 80%;
 		margin: 1.5rem auto 2rem auto;
-		background-color: #A33A39;
 	}
 
 	.start-btn:hover {
@@ -643,8 +663,6 @@ footer div a:hover {
     }
 
 }
-
-
 
 
 
